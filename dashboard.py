@@ -18,16 +18,6 @@ st.write("""
 3. Is there a significant difference in bike-sharing usage between working day and holiday?     
 """)
 
-st.write("## **Dataset**")
-
-day_df = pd.read_csv(r"C:\Users\Gabriel Manurung\Documents\Bangkit\submission\data\day_data.csv")
-st.write("### Daily Bike Sharing")
-st.dataframe(day_df)
-
-hour_df = pd.read_csv(r"C:\Users\Gabriel Manurung\Documents\Bangkit\submission\data\hour_data.csv")
-st.write("### Hourly Bike Sharing")
-st.dataframe(hour_df)
-
 st.write("## **Exploratory Data Analysis (EDA)**")
 
 st.write("### Explore Season")
