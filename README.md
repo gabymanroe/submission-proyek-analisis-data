@@ -9,3 +9,6 @@ pip install -r requirements.txt
 ```
 streamlit run dashboard.py
 ```
+
+# Dashboard
+https://bikesharinggabrielml35-dicoding.streamlit.app/
